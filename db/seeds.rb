@@ -5,3 +5,18 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+
+
+
+ Article.create(title: Faker::Book.title, content: Faker::Hipster.paragraph(2, true, 4) )
+  Article.create(title: Faker::Book.title, content: Faker::Hipster.paragraph(2, true, 4) )
+   Article.create(title: Faker::Book.title, content: Faker::Hipster.paragraph(2, true, 4) )
+    Article.create(title: Faker::Book.title, content: Faker::Hipster.paragraph(2, true, 4) )
+     Article.create(title: Faker::Book.title, content: Faker::Hipster.paragraph(2, true, 4) )
+      Article.create(title: Faker::Book.title, content: Faker::Hipster.paragraph(2, true, 4) )
+       Article.create(title: Faker::Book.title, content: Faker::Hipster.paragraph(2, true, 4) )
+        Article.create(title: Faker::Book.title, content: Faker::Hipster.paragraph(2, true, 4) )
+         Article.create(title: Faker::Book.title, content: Faker::Hipster.paragraph(2, true, 4) )
+

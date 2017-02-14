@@ -1,6 +1,15 @@
-<h1>Latest news</h1>
-<% @articles.each do |t| %>
-<div>
-<h1> <%= t.title %></h1> <p> <%= t.content %></p>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+ <%= link_to "Add Article", new_article_path(@article), class: "btn btn-primary" %>
+      <h1>Latest news</h1>
+        <% @articles.each do |t| %>
+          <div>
+          <h2> <%= t.title %></h2> <p> <%= t.content %> <%= link_to "read more", article_path(t.id)  %></p>
+          </div>
+        <% end %>
+
+    </div>
+  </div>
 </div>
-<% end %>
+
